@@ -1,0 +1,136 @@
+body{
+    margin: 0px 5vw;
+    width: 90vw;
+    max-width: 1100px;
+    background: #423dd4; 
+    font-family: cursive;
+}
+
+h1{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 100;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #00a6ff;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.grid-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid-section {
+
+    background-color: white;
+    -webkit-box-shadow: -2px -1px 15px 7px rgba(0,0,0,0.10);
+    -moz-box-shadow: -3px -2px 30px 14px rgba(0,0,0,0.430);
+    box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.30);
+  }
+
+table {
+    display: block;
+    display: table-row-group;
+    
+    row-gap: 50%;
+    background-color: white;
+align-items: center;
+border-collapse: separate;
+border-spacing: 0 1.3vw;
+overflow-x: auto;
+-webkit-box-shadow: -2px -1px 15px 7px rgba(0,0,0,0.10);
+    -moz-box-shadow: -3px -2px 30px 14px rgba(0,0,0,0.430);
+    box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.30);
+}
+
+.main {
+    align-items: left;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 20px;
+    
+}
+
+.part{
+    align-items: center;
+    height: 20vw;
+    width: 90vw;
+    display: flex;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+   display: block;
+    padding: 10px;
+  }
+
+th {
+    background-color: #5d8bdb;
+    color: white;
+  }
+
+  .buttons {
+    margin: 20px;
+    width: 50%;
+    padding: 10px;
+    width: 200px;
+    margin: 0 auto;
+    display: inline;}
+
+.cc {
+        width: 800px;
+        border: 10px solid rgb(255, 255, 255);
+        padding: 30px;
+        margin: auto;
+        background-color: white;
+        
+    -webkit-box-shadow: -2px -1px 15px 7px rgba(0,0,0,0.10);
+    -moz-box-shadow: -3px -2px 30px 14px rgba(0,0,0,0.430);
+    box-shadow: -4px -3px 45px 21px rgba(0,0,0,0.30);
+      }
+
+     
+    
+
+
+      
+    
+
+  

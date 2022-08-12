@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link href="style.css" rel="stylesheet" >
+</head>
+<body>
+    
+    <script src="dynamic.js"></script>
+    <!--First page with image and 2 Buttons -->
+   <div>
+        <br><br>
+        <img src="C:\Users\tilak\OneDrive\Desktop\WEB222 Website\IMG_1894.jpg" alt="Profile Picture" class="center" style="width:60%;">
+        <h1 style="text-align: center; color:white" >Tilak Chauhan</h1>
+        <h4 style="text-align: center; color:white">Web Designer</h4>
+   </div>
+   <div id="Buttons" class="center">
+    <a  data-inline="true" href = "C:\Users\tilak\OneDrive\Desktop\WEB222 Website\Profile.pdf">
+        <button class="button" style="vertical-align:middle"><span>Resume</span></button></a>
+    <a  data-inline="true" href = "#cc"><button class="button" style="vertical-align:middle"><span>Contact Me</span></button></a>
+</div>
+<br>
+<!-- infographic section -->
+<div class="grid-section">
+
+<div class="grid-sec1">
+    <h2 style="text-align: left; text-shadow: 1px 1px black;">About Me and Academic Honesty</h2>
+    <p  style="text-align: left;">I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. 
+        No part of this assessment has been copied manually or electronically from any other source (including web sites) 
+        except for the information supplied by the WEB222 instructors and / or made available in this assessment for my use. 
+        I also declare that no part of this assignment has been distributed to other students.<br><b>Date: 11-08-2022</b></p>
+</div>
+
+<div class="grid-sec2">
+    <h2  style="text-align: center; text-shadow: 1px 1px black;">Basic information </h2>
+    <ul  style="margin-left: 12vw;">
+        <li><span id="bold">Name: </span>Tilak Chauhan</li>
+        <li><span id="bold">Age: </span>21</li>
+        <li><span id="bold">Email: </span>tchauhan6@myseneca.ca</li>
+        <li><span id="bold">Language: </span>English, Hindi, Gujarati</li>
+        <li><span id="bold">Class Section: </span>WEB222</li>
+        <li><span id="bold">Student ID: </span>152681219</li>
+        <li><span id="bold">Instructor: </span>Dr.Muath Alzghool</li>
+    </ul>
+</div>
+
+</div>
+
+<!-- Education Details Page -->
+<h2 style="text-align: center; text-decoration:underline; text-decoration-style:wavy;"> EDUCATION </h2>
+
+<div id="main" class="center">
+    <div id="part" class="center">
+        <table>
+            <tr> <th>Advanced Diploma<br><br>January, 2022 - present</th>
+                <td>Computer Programming and analysis, Seneca College<br><br></td>
+            </tr>
+        </table>
+        </div>
+    </div>
+    <br>
+    <div id="main" class="center">
+        <div id="part" class="center">
+<table>
+            <tr>
+            <th><br>Secondary Studies<br>2016-2018</th>
+            <td><br>Knowledge High School, Nadiad, Gujarat<br>
+            </td>
+            </tr>
+            </table>
+        </div>
+    </div>
+    
+
+ 
+    <!--Reflection Video link -->
+    
+    <div class="reflect">
+        <h1 style="text-align: center; text-decoration:underline; text-decoration-style:wavy;">
+            Watch my Reflection Video to know more about me and this project!!<a href = "https://youtu.be/"></a>
+        </h1>
+    </div>
+
+    <!--Contact me Form-->
+
+    <div id="cc" class="cc">
+        <div>
+            <h1 style="text-align: center; color: rgb(0, 0, 0);"><i>  Fill this form to Contact Me:)   </i></h1>
+        </div>
+
+        <!-- Contact Form -->
+
+        <form id="form" action="https://httpbin.org/post" method="POST">
+            <div>
+                <label for="name"><b>First Name: </b>   </label> 
+                <input type="text" id="fname" name="fname" size="30" placeholder="Enter your First Name"required/>
+                <label for="name"> <b>Last Name:</b></label> 
+                <input type="text" id="lname" name="lname" size="30" placeholder="Last Name"/>
+                <br><br>
+                <label for="email"> <b>Email address: </b></label> 
+                <input type="email" id="email" name="email" size="50" placeholder="Enter your E-mail"required/>
+                <br><br>
+                <label for="phone"> <b>Phone Number:  </b></label> 
+                <input type="tele" id="phone" name="phone" size="12" placeholder="Enter your Phone Number"required/>
+            </div>
+<br>
+            <div>
+                <label for="address"><b>Address: </b> </label> 
+                <input type="text" id="address" name="address" size="50" placeholder="Enter your address"required/>
+            </div>
+<br>
+            <div>
+                <label for="city"> <b>City:  </b></label>
+            <input type="text" list="city" name="city" size="30" placeholder="Enter your city" required>
+            <datalist id="city">
+                <option label="Toronto" value="Toronto"></option>
+                <option label="Scarborough" value="Scarborough"></option>
+                <option label="Brampton" value="Brampton"></option>
+                <option label="Hamilton" value="Hamilton"></option>
+                <option label="Edmonton" value="Edmonton"></option>
+                <option label="Mississauga" value="Mississauga"></option>
+                <option label="Vaughan" value="Vaughan"></option>
+                <option label="Ottawa" value="Ottawa"></option>
+                <option label="Montreal" value="Montreal"></option>
+                <option label="Calgary" value="Calgary"></option>
+                <option label="Vancouver" value="Vancouver"></option>
+                <option label="Winnipeg" value="Winnipeg"></option>
+                <option label="Woodstock" value="Woodstock"></option>
+            </datalist>
+
+            <label for="postalcode"> <b>Postal Code:</b> </label> 
+                <input type="text" id="postalcode" title="correct format M1K 4S3" pattern="[A-Za-z][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]" name="postalcode" size="10" placeholder="Enter your postal code"required/>
+            </div>
+<br>
+            <!--Create buttons dynamic-->
+            <div>
+                <label for="purpose">
+                    <b>Purpose: </b></label>
+            
+                <input type="radio" id="hide" name="purpose" value="question"onclick="dynamic()" checked/>Question
+                <input type="radio" id="hide" name="purpose" value="comment" onclick="dynamic()"/>Comment
+                <input type="radio" id="show" name="purpose" value="hiring" onclick="dynamic()"/>Hiring
+            
+            </div>
+
+            <div id="hour">
+                <label for="hour"> Hourly Rate: </label> 
+                <input type="number" id="hourlyrate"  name="hourlyrate" size="5" placeholder="Enter Hourly Rate"/>
+            </div>
+            <br>
+            <div>
+                <label for="message"> <b>Message: </b></label><br>
+                <textarea form="contactform" rows="5" cols="80" id="message"  name="message">
+                 </textarea>
+            </div>
+           
+            <br>
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </div>
+
+
+        </form>
+        
+
+</div>
+
+</body>
+</html>
